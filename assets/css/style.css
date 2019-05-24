@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  border-top: 5px solid #292929;
+}
+
+.custom-button {
+  background: #292929;
+  min-width: 155px;
+  min-height: 44px;
+  padding: 8px 20px;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 8px 2px #c9c9c9;
+  margin-top: 30px;
+}
+
+.custom-button:hover {
+  color: #ffffff;
+}
+
+.custom-wrapper {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.slick-dots {
+  bottom: -50px;
+}
+
+label {
+  font-size: 14px;
+}
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.custom-form {
+  padding: 40px;
+  box-shadow: 0px 2px 8px 1px #e7e7e7;
+  height: inherit;
+  border-bottom: 3px solid #292929;
+}
+
+.white-button {
+  background: #ffffff;
+  border: 1px solid #292929;
+  color: #292929;
+}
+
+.white-button:hover {
+  color: #292929;
+}
+
+.br-theme-bars-square .br-widget {
+  height: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(10, 35px);
+  align-items: center;
+  justify-content: center;
+}
+
+.br-theme-bars-square .br-widget a.br-active, .br-theme-bars-square .br-widget a.br-selected {
+  border: 2px solid #fff;
+  box-shadow: 0px 4px 8px 2px #c9c9c9;
+  border-radius: 50%;
+  background: #292929;
+}
+
+.br-theme-bars-square .br-widget a {
+  border: 2px solid #928f8f;
+  border-radius: 50%;
+  color: #928f8f;
+}
